@@ -17,6 +17,9 @@ public class MethodCollector {
         // hier kann die nächste Methode folgen.
         aSecondMethod();
         methodCounter++;
+
+        printTicTacToeBoard();
+        methodCounter++;
     }
 
 
@@ -26,6 +29,14 @@ public class MethodCollector {
 
     private static void aSecondMethod() {
         System.out.println("MethodCollector aSecondMethod: This method has been created     by heisob ");
+    }
+
+    private static void printTicTacToeBoard() {
+        System.out.println("   |   |   ");
+        System.out.println("---+---+---");
+        System.out.println("   |   |   ");
+        System.out.println("---+---+---");
+        System.out.println("   |   |   ");
     }
 
 }
